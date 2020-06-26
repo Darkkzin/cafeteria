@@ -1,11 +1,10 @@
 *{
     margin: 0px;
-   
 
 }
 
 #estrutura{
-    background-color: rgb(255, 184, 51);
+    background-color: rgb(255, 194, 81);
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -13,16 +12,19 @@
 
 }
 #estrutura #titulo{
-    background-image: url("../Imagens/cafeteria.jpg");
-    background-position: -400px -380px;
-    color: cornsilk;
+    background-image: url("../Imagens/thumb-1920-877311.jpg");
+    background-position: -400px -350px;
+    color: rgb(19, 18, 18);
     font-size: 20pt;
     font-family: cursive;
-    padding-top: 5px;
-    padding-left: 5px;
-    height: 470px;
+    padding-top: 10px;
+    padding-left: 10px;
+    height: 350;
     text-align: center;
 
+
+    
+    
 }
 .titulo{
     margin-top: 400px;
@@ -30,7 +32,7 @@
 }
 p{
     text-align: justify;
-    text-indent: 20px;
+    text-indent: 10px;
     font-family: Century Ghotic;
     font-size: 15pt;
     
@@ -60,8 +62,8 @@ p{
 
 }
 #estrutura #Menu a:hover{
-    background-color: rgb(192, 92, 21);
-    color: rgb(255, 255, 255);
+    background-color: chocolate;
+    color: floralwhite;
 
 }
 #estrutura #Menu a.atual{
@@ -73,7 +75,7 @@ p{
     font-size: 12pt;
     line-height: 14pt;
     padding-left: 20px;
-    text-shadow:2px 2px 5px black;
+    text-shadow: black;
 
 }
 #rodapé{
@@ -91,7 +93,8 @@ p{
     width: 300px;
     height: 250px;
     margin: 10px;
-
+    border: black;
+    
 }
 #estrutura #conteudo .imghome{
     text-align: center;
@@ -99,6 +102,4 @@ p{
 }
 .abaixar{
     clear: both;
-
 }
-
